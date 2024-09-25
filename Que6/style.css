@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-family: "oswald";
+    font-weight: 400;
+}
+
+.content{
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.content p{
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+.banner{
+    width: 70%;
+}
+
+img{
+    width: 100%;
+}
